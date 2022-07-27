@@ -1,16 +1,22 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fortawesome/free-brands-svg-icons': ^6.1.2
+  '@fortawesome/free-solid-svg-icons': ^6.1.2
   '@solidjs/router': ^0.4.2
   autoprefixer: ^10.4.7
   postcss: ^8.4.14
+  solid-fa: ^0.1.0
   solid-js: ^1.4.7
   tailwindcss: ^3.1.6
   vite: ^3.0.0
   vite-plugin-solid: ^2.3.0
 
 dependencies:
+  '@fortawesome/free-brands-svg-icons': 6.1.2
+  '@fortawesome/free-solid-svg-icons': 6.1.2
   '@solidjs/router': 0.4.2_solid-js@1.4.7
+  solid-fa: 0.1.0_solid-js@1.4.7
   solid-js: 1.4.7
 
 devDependencies:
@@ -328,6 +334,28 @@ packages:
       '@babel/helper-validator-identifier': 7.18.6
       to-fast-properties: 2.0.0
     dev: true
+
+  /@fortawesome/fontawesome-common-types/6.1.2:
+    resolution: {integrity: sha512-wBaAPGz1Awxg05e0PBRkDRuTsy4B3dpBm+zreTTyd9TH4uUM27cAL4xWyWR0rLJCrRwzVsQ4hF3FvM6rqydKPA==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dev: false
+
+  /@fortawesome/free-brands-svg-icons/6.1.2:
+    resolution: {integrity: sha512-b2eMfXQBsSxh52pcPtYchURQs6BWNh3zVTG8XH8Lv6V4kDhEg7D0kHN+K1SZniDiPb/e5tBlaygsinMUvetITA==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dependencies:
+      '@fortawesome/fontawesome-common-types': 6.1.2
+    dev: false
+
+  /@fortawesome/free-solid-svg-icons/6.1.2:
+    resolution: {integrity: sha512-lTgZz+cMpzjkHmCwOG3E1ilUZrnINYdqMmrkv30EC3XbRsGlbIOL8H9LaNp5SV4g0pNJDfQ4EdTWWaMvdwyLiQ==}
+    engines: {node: '>=6'}
+    requiresBuild: true
+    dependencies:
+      '@fortawesome/fontawesome-common-types': 6.1.2
+    dev: false
 
   /@jridgewell/gen-mapping/0.1.1:
     resolution: {integrity: sha512-sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w==}
@@ -1145,6 +1173,14 @@ packages:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
     hasBin: true
     dev: true
+
+  /solid-fa/0.1.0_solid-js@1.4.7:
+    resolution: {integrity: sha512-5DSFt0aibr5FS8jssadXKmG2NEubjuvxxqrJDh8ingYNAFP9dextiG0w0Wn+ssdrUUEwDxIAN31g2OMBQI7p+A==}
+    peerDependencies:
+      solid-js: ^1.0.0
+    dependencies:
+      solid-js: 1.4.7
+    dev: false
 
   /solid-js/1.4.7:
     resolution: {integrity: sha512-u3hoe5w3xseAc/8zLwYaQVGanWXknMMQkzryNz7lOPy2ygW6DhCtfMseun4kLflRNRzrUUpTV3W5p7j2SGcHCQ==}
