@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import styles from './App.module.css';
+import { Route, Routes } from "@solidjs/router";
+import Home from "./Home";
+import NavBar from "./NavBar";
 
 function App() {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
-        <p>
-          Edit <code>src/App.jsx</code> and save to reload.
-        </p>
-        <a
-          class={styles.link}
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
-      </header>
+    <div>
+      <NavBar />
+      <div class="container mx-auto">
+        <Routes>
+          <Route path="/" component={Home} />
+        </Routes>
+      </div>
     </div>
   );
 }
