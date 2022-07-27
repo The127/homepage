@@ -3,9 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
-/* anchor tags with an active class  */
+body{
+  color: #080705;
+}
+
+.navbar {
+  background-color: white;
+}
+
+a:hover {
+}
+
 a.active {
   border-bottom: 1px solid #000;
 }
-
 
