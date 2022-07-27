@@ -4,7 +4,7 @@ import Text from "./Text";
 export default function NavBar(){
     return (
         <div class="flex flex-row px-16 py-6 sticky top-0 flex-wrap justify-between items-baseline">
-            <div class="flex flex-wrap flex-row">
+            <div class="flex flex-wrap flex-row items-baseline">
                 <Text class="text-xl pr-8">Karolin Bähr</Text>
                 <Text class="text text-gray-500">I'm a <i class="text-gray-700">professional</i> software developer</Text>
             </div>
