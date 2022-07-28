@@ -4,7 +4,7 @@ import Text from "./Text";
 export default function NotFound(){
     return (
         <>
-            <div class="container mx-auto flex flex-col">
+            <div class="container mx-auto flex flex-col p-3">
                 <Text class="text-6xl mt-12 mb-6">
                     Stop snooping around!
                 </Text>
