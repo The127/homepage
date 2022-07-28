@@ -12,9 +12,9 @@ export default function NavBar() {
             </div>
             <div class="pr-8">
                 <div class="flex flex-col md:flex-row mb-2 nav-links">
-                    <NavLink class="mx-1 p-2 text-xl text-center" end="true" href="/">Home</NavLink>
-                    <NavLink class="mx-1 p-2 text-xl text-center" end="true" href="/portfolio">Portfolio</NavLink>
-                    <NavLink class="mx-1 p-2 text-xl text-center" end="true" href="/contacts">Contacts</NavLink>
+                    <NavLink class="m-1 p-2 text-xl text-center" end="true" href="/">Home</NavLink>
+                    <NavLink class="m-1 p-2 text-xl text-center" end="true" href="/portfolio">Portfolio</NavLink>
+                    <NavLink class="m-1 p-2 text-xl text-center" end="true" href="/contacts">Contacts</NavLink>
                 </div>
             </div>
             <div class="flex-row self-center hidden md:flex">
