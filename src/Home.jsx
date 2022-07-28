@@ -5,6 +5,8 @@ import Text from "./Text";
 import { Link } from "@solidjs/router";
 import Fa from "solid-fa";
 import { faExternalLink, faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
+import WordCloud from "./WordCloud";
+import WordCloudItem from "./WordCloudItem";
 
 export default function Home() {
     return (
@@ -29,7 +31,7 @@ export default function Home() {
                             <Fa icon={faExternalLink} />
                         </div>
                     </HomePanelItem>
-                    <HomePanelItem class="bg-yellow-100 hover:bg-yellow-200 active:bg-yellow-50" href="/drawings">
+                    <HomePanelItem class="bg-yellow-100 hover:bg-yellow-200 active:bg-yellow-50" href="/poetry">
                         <Text>
                             I write very bad poetry.
                         </Text>
@@ -65,6 +67,51 @@ export default function Home() {
                     </HomePanelItem>
                 </HomePanel>
             </HomePanelContainer>
+
+            <div class="container mx-auto">
+                <div class="flex flex-col flex-1 justify-center my-32 md:my-56">
+                    <WordCloud>
+                        <WordCloudItem size="4">agile</WordCloudItem>
+                        <WordCloudItem size="1">professional</WordCloudItem>
+                        <WordCloudItem size="2">solid</WordCloudItem>
+                        <WordCloudItem size="1">tailwind</WordCloudItem>
+                        <WordCloudItem size="3">css</WordCloudItem>
+                        <WordCloudItem size="1">architecture</WordCloudItem>
+                        <WordCloudItem size="2">application</WordCloudItem>
+                        <WordCloudItem size="1">blazor</WordCloudItem>
+                        <WordCloudItem size="1">responsive</WordCloudItem>
+                        <WordCloudItem size="4">mobile</WordCloudItem>
+                        <WordCloudItem size="3">desktop</WordCloudItem>
+                        <WordCloudItem size="1">javascript</WordCloudItem>
+                        <WordCloudItem size="2">container</WordCloudItem>
+                        <WordCloudItem size="1">cloud</WordCloudItem>
+                        <WordCloudItem size="1">software</WordCloudItem>
+                        <WordCloudItem size="3">developer</WordCloudItem>
+                        <WordCloudItem size="2">azure</WordCloudItem>
+                        <WordCloudItem size="1">html</WordCloudItem>
+                        <WordCloudItem size="1">aws</WordCloudItem>
+                        <WordCloudItem size="4">typescript</WordCloudItem>
+                        <WordCloudItem size="1">dotnet</WordCloudItem>
+                        <WordCloudItem size="2">dotnetcore</WordCloudItem>
+                        <WordCloudItem size="1">algorithm</WordCloudItem>
+                        <WordCloudItem size="3">datastructure</WordCloudItem>
+                        <WordCloudItem size="2">design</WordCloudItem>
+                        <WordCloudItem size="1">adaptive</WordCloudItem>
+                        <WordCloudItem size="2">html5</WordCloudItem>
+                        <WordCloudItem size="3">web</WordCloudItem>
+                        <WordCloudItem size="1">gcp</WordCloudItem>
+                        <WordCloudItem size="1">docker</WordCloudItem>
+                        <WordCloudItem size="2">microservice</WordCloudItem>
+                        <WordCloudItem size="1">react</WordCloudItem>
+                        <WordCloudItem size="1">bootstrap</WordCloudItem>
+                    </WordCloud>
+                    <div class="text-3xl top-0 mt-16 mx-16 text-gray-300">
+                        <Fa icon={faQuoteLeft} />
+                    </div>
+                    <Text class="text-center pt-6 text-3xl ">things i should probably know by now</Text>
+                    <Text class="text-right pt-6 mr-16 text-xl text-gray-500">- me, just now</Text>
+                </div>
+            </div>
         </>
 
     );

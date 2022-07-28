@@ -9,6 +9,7 @@ import NavBar from "./NavBar";
 import NotFound from "./NotFound";
 import Portfolio from "./Portfolio";
 import Privacy from "./Privacy";
+import Poetry from "./Poetry";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/about" component={About} />
         <Route path="/drawings" component={Drawings} />
+        <Route path="/poetry" component={Poetry} />
         <Route path="/privacy" component={Privacy} />
         <Route path="/impressum" component={Impressum} />
         <Route path="/asd" component={Asd} />
