@@ -6,11 +6,9 @@ function App() {
   return (
     <div>
       <NavBar />
-      <div class="container mx-auto">
         <Routes>
           <Route path="/" component={Home} />
         </Routes>
-      </div>
     </div>
   );
 }
