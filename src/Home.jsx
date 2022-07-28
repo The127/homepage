@@ -41,7 +41,7 @@ export default function Home() {
                 </HomePanel>
 
                 <HomePanel>
-                    <HomePanelItem class="bg-green-100 hover:bg-green-200 active:bg-green-50" href="/drawings">
+                    <HomePanelItem class="bg-green-100 hover:bg-green-200 active:bg-green-50" href="/portfolio">
                         <Text>
                             i like to code things
                         </Text>
