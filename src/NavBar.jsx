@@ -10,7 +10,7 @@ export default function NavBar() {
                 <Link href="/"><Text class="text-3xl md:pr-8 mb-3">Karolin</Text></Link>
                 <Text class="hidden md:block text-2xl pr-8 mb-2 text-gray-500">I'm a <i class="text-gray-700 professional">professional</i> software developer</Text>
             </div>
-            <div class="pr-8">
+            <div class="md:pr-8">
                 <div class="flex flex-col md:flex-row mb-2 nav-links">
                     <NavLink class="m-1 p-2 text-xl text-center" end="true" href="/">Home</NavLink>
                     <NavLink class="m-1 p-2 text-xl text-center" end="true" href="/portfolio">Portfolio</NavLink>

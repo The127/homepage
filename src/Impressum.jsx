@@ -4,7 +4,7 @@ export default function Impressum() {
     return (
         <>
             <div class="container mx-auto flex flex-col p-3">
-                <Text class="text-6xl mt-12 mb-6">
+                <Text class="text-6xl mt-12 mb-6 break-words">
                     Impressum
                 </Text>
                 <Text class="mb-3">
