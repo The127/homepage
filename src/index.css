@@ -8,17 +8,29 @@ body{
 }
 
 .navbar {
-  background-color: white;
+  background-color: #080705;
+  color: #fff;
 }
 
-a:hover {
+.nav-links a {
+  border-radius: 10px;
+  transition: all 0.3s ease-in-out;
 }
 
-a.active {
-  border-bottom: 1px solid #000;
+.nav-links a:hover {
+  background-color: #f5f5f5;
+  color: #080705;
+}
+
+.nav-links a.active {
+  background-color: #f5f5f5;
+  color: #080705;
+  text-decoration: underline;
 }
 
 .professional {
   background-color: #f5f5f5;
   border-radius: 10px;
+  padding: 0.25rem;
+  color: #080705;
 }
