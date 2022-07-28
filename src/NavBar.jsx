@@ -5,7 +5,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function NavBar() {
     return (
-        <div class="navbar flex flex-row px-16 py-6 sticky top-0 flex-wrap justify-center md:justify-between items-center md:items-baseline drop-shadow">
+        <div class="navbar flex flex-row px-16 py-6 md:sticky top-0 flex-wrap justify-center md:justify-between items-center md:items-baseline drop-shadow">
             <div class="flex flex-wrap flex-row justify-center md:items-baseline w-full md:w-auto">
                 <Text class="text-3xl md:pr-8 mb-3">Karolin Bähr</Text>
                 <Text class="hidden md:block text-2xl pr-8 mb-2 text-gray-500">I'm a <i class="text-gray-700 professional">professional</i> software developer</Text>
