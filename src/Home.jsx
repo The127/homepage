@@ -22,7 +22,7 @@ export default function Home() {
                     </HomePanelItem>
                     <HomePanelItem class="bg-yellow-100 hover:bg-yellow-200 active:bg-yellow-50" href="/drawings">
                         <Text>
-                            i'm kinda gay
+                            i write very bad poetry
                         </Text>
                     </HomePanelItem>
                 </HomePanel>
