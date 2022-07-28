@@ -1,11 +1,13 @@
 import { Route, Routes } from "@solidjs/router";
 import Asd from "./Asd";
+import Contacts from "./Contacts";
 import Drawings from "./Drawings";
 import Footer from "./Footer";
 import Home from "./Home";
 import Impressum from "./Impressum";
 import NavBar from "./NavBar";
 import NotFound from "./NotFound";
+import Portfolio from "./Portfolio";
 import Privacy from "./Privacy";
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" component={Home} />
+        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/contacts" component={Contacts} />
         <Route path="/drawings" component={Drawings} />
         <Route path="/privacy" component={Privacy} />
         <Route path="/impressum" component={Impressum} />
