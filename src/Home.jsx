@@ -108,7 +108,7 @@ export default function Home() {
                     <div class="text-3xl top-0 mt-16 mx-16 text-gray-300">
                         <Fa icon={faQuoteLeft} />
                     </div>
-                    <Text class="text-center pt-6 text-3xl ">things i should probably know by now</Text>
+                    <Text class="text-center pt-6 text-3xl ">Things i should probably know by now.</Text>
                     <Text class="text-right pt-6 mr-16 text-xl text-gray-500">- me, just now</Text>
                 </div>
             </div>
