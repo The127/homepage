@@ -1,6 +1,6 @@
 import { NavLink, Link } from "@solidjs/router";
-import Fa from "solid-fa";
 import Text from "./Text";
+import Fa from "solid-fa";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function NavBar() {
@@ -18,7 +18,7 @@ export default function NavBar() {
                 </div>
             </div>
             <div class="flex-row self-center hidden md:flex">
-                <NavLink href="https://github.com/The127" target="blank"><Text class="text-3xl"><Fa icon={faGithub} /></Text></NavLink>
+                <Link href="https://github.com/The127" target="blank"><Text class="text-3xl"><Fa icon={faGithub} /></Text></Link>
             </div>
         </div>
     );
