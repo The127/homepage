@@ -1,6 +1,6 @@
 import { Route, Routes } from "@solidjs/router";
 import Asd from "./Asd";
-import Contacts from "./Contacts";
+import About from "./About";
 import Drawings from "./Drawings";
 import Footer from "./Footer";
 import Home from "./Home";
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" component={Home} />
         <Route path="/portfolio" component={Portfolio} />
-        <Route path="/contacts" component={Contacts} />
+        <Route path="/about" component={About} />
         <Route path="/drawings" component={Drawings} />
         <Route path="/privacy" component={Privacy} />
         <Route path="/impressum" component={Impressum} />

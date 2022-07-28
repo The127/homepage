@@ -14,7 +14,7 @@ export default function NavBar() {
                 <div class="flex flex-col md:flex-row mb-2 nav-links">
                     <NavLink class="m-1 p-2 text-xl text-center" end="true" href="/">Home</NavLink>
                     <NavLink class="m-1 p-2 text-xl text-center" end="true" href="/portfolio">Portfolio</NavLink>
-                    <NavLink class="m-1 p-2 text-xl text-center" end="true" href="/contacts">Contacts</NavLink>
+                    <NavLink class="m-1 p-2 text-xl text-center" end="true" href="/about">About</NavLink>
                 </div>
             </div>
             <div class="flex-row self-center hidden md:flex">
