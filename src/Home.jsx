@@ -14,32 +14,29 @@ export default function Home() {
 
             <HomePanelContainer>
                 <HomePanel>
-                    <HomePanelItem>
-                        thing 1
-                        asd
-                        <br />
-                        asd
+                    <HomePanelItem class="bg-pink-100">
+                        a thing i've done
                     </HomePanelItem>
-                    <HomePanelItem>
+                    <HomePanelItem class="bg-yellow-100">
                         image of thing
                     </HomePanelItem>
                 </HomePanel>
 
                 <HomePanel>
-                    <HomePanelItem>
+                    <HomePanelItem class="bg-blue-100">
                         image of thing
                     </HomePanelItem>
-                    <HomePanelItem>
-                        thing 2
+                    <HomePanelItem class="bg-orange-100">
+                        another thing ive done
                     </HomePanelItem>
                 </HomePanel>
 
                 <HomePanel>
-                    <HomePanelItem>
-                        image of thing
+                    <HomePanelItem class="bg-green-100">
+                        who would have guessed? yet another thing i did
                     </HomePanelItem>
-                    <HomePanelItem>
-                        thing 3
+                    <HomePanelItem class="bg-red-100">
+                        image of thing
                     </HomePanelItem>
                 </HomePanel>
             </HomePanelContainer>

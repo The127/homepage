@@ -1,6 +1,6 @@
 export default function HomePanelItem(props) {
     return (
-        <div class="flex-1">
+        <div className="flex-1 p-16" class={props.class}>
             {props.children}
         </div>
     )
