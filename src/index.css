@@ -18,3 +18,7 @@ a.active {
   border-bottom: 1px solid #000;
 }
 
+.professional {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
