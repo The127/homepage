@@ -15,28 +15,40 @@ export default function Home() {
             <HomePanelContainer>
                 <HomePanel>
                     <HomePanelItem class="bg-pink-100">
-                        a thing i've done
+                        <Text>
+                            i make music
+                        </Text>
                     </HomePanelItem>
                     <HomePanelItem class="bg-yellow-100">
-                        image of thing
+                        <Text>
+                            i'm kinda gay
+                        </Text>
                     </HomePanelItem>
                 </HomePanel>
 
                 <HomePanel>
                     <HomePanelItem class="bg-blue-100">
-                        image of thing
+                        <Text>
+                            i draw sometimes
+                        </Text>
                     </HomePanelItem>
                     <HomePanelItem class="bg-orange-100">
-                        another thing ive done
+                        <Text>
+                            i made a online profile website
+                        </Text>
                     </HomePanelItem>
                 </HomePanel>
 
                 <HomePanel>
                     <HomePanelItem class="bg-green-100">
-                        who would have guessed? yet another thing i did
+                        <Text>
+                            i like to code things
+                        </Text>
                     </HomePanelItem>
                     <HomePanelItem class="bg-red-100">
-                        image of thing
+                        <Text>
+                            i like to sleep
+                        </Text>
                     </HomePanelItem>
                 </HomePanel>
             </HomePanelContainer>
