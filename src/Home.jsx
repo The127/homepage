@@ -3,6 +3,8 @@ import HomePanelContainer from "./HomePanelContainer";
 import HomePanelItem from "./HomePanelItem";
 import Text from "./Text";
 import { Link } from "@solidjs/router";
+import Fa from "solid-fa";
+import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 
 export default function Home() {
     return (
@@ -16,9 +18,12 @@ export default function Home() {
             <HomePanelContainer>
                 <HomePanel>
                     <HomePanelItem class="bg-pink-100 hover:bg-pink-200 active:bg-pink-50" href="https://liaaura.vercel.app/" target="blank">
-                        <Text>
-                            i make music
-                        </Text>
+                        <div class="flex flex-row justify-center">
+                            <Text class="mr-2">
+                                i make music
+                            </Text>
+                            <Fa icon={faExternalLink} />
+                        </div>
                     </HomePanelItem>
                     <HomePanelItem class="bg-yellow-100 hover:bg-yellow-200 active:bg-yellow-50" href="/drawings">
                         <Text>
@@ -34,9 +39,12 @@ export default function Home() {
                         </Text>
                     </HomePanelItem>
                     <HomePanelItem class="bg-orange-100 hover:bg-orange-200 active:bg-orange-50" href="https://profyle.net" target="blank">
-                        <Text>
+                        <div class="flex flex-row justify-center">
+                            <Text class="mr-2">
                             i made an online profile website
-                        </Text>
+                            </Text>
+                            <Fa icon={faExternalLink} />
+                        </div>
                     </HomePanelItem>
                 </HomePanel>
 
