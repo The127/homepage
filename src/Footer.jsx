@@ -8,7 +8,8 @@ import Text from "./Text";
 
 export default function Footer() {
     return (
-        <footer class="container mx-auto px-3 my-16">
+        <footer class="container mx-auto my-16 px-3">
+            <hr class="-mx-12 mb-6" />
             <FooterContainer>
                 <FooterColumn>
                     <FooterItem class="text-xl mb-3">
