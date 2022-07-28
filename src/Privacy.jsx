@@ -3,7 +3,7 @@ import Text from "./Text";
 export default function Privacy() {
     return (
         <>
-            <div class="container mx-auto flex flex-col">
+            <div class="container mx-auto flex flex-col p-3">
                 <Text class="text-6xl mt-12 mb-6">
                     Datenschutzerklärung
                 </Text>
