@@ -9,8 +9,6 @@ export default function Impressum() {
                 </Text>
                 <Text class="mb-3">
                     The information you are looking for is in the footer.<br />
-                    Why did you even click this link?<br />
-                    Are you blind?
                 </Text>
             </div>
         </>

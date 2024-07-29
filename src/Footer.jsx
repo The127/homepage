@@ -16,10 +16,10 @@ export default function Footer() {
                         AUS DEM SCHWARZWALD
                     </FooterItem>
                     <FooterItem>
-                        Karolin Suzana Bähr
+                        Karolin Kostial
                     </FooterItem>
                     <FooterItem>
-                        Hinter den Gärten 17, 77767 Appenweier
+                        Leopold Straße 51, 76133 Karlsruhe
                     </FooterItem>
                     <FooterItem>
                         E-Mail: <a href="mailto:julian.baehr@gmail.com">julian.baehr@gmail.com</a>
@@ -30,7 +30,7 @@ export default function Footer() {
                     </FooterItem>
 
                     <FooterItem class="mb-6">
-                        &copy; 2022 - <i class="professional">Karolin Bähr</i>
+                        &copy; 2024 - <i class="professional">Karolin Bähr</i>
                     </FooterItem>
                 </FooterColumn>
 
